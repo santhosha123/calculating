@@ -2,11 +2,8 @@
 void main()
 {
 	int a,b,c;
-	printf("ENTER A:);
-	scanf("%d",&a);
-	printf("ENTER B:);
-	scanf("%d",&b);
-	printf("THE SUM IS:");
+	printf("ENTER A & B:);
+	scanf("%d%d",&a,&b);
 	c=a+b;
-	scanf("%d",&c);
+	printf("THE SUM IS: %d",c);       
 }
